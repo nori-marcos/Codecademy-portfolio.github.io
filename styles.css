@@ -26,8 +26,6 @@ header ul > li {
 banner {
   display: flex;
   align-items: center;
-  align-content: center;
-  justify-items: center;
   justify-content: center;
   position: relative;
   z-index: 0;
