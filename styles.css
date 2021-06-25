@@ -5,8 +5,21 @@ html {
 }
 
 /* Header */
+header {
+  width: 100%;
+  display: inline-flex;
+  justify-items: end;
+  justify-content: end;
+  background-color: #15141f;
+}
 
+header ul {
+  list-style-type: none;
+}
 
+header ul > li {
+  display: inline;
+}
 
 /* Banner */
 
@@ -24,7 +37,7 @@ banner h1 {
   font-size: 5em;
   font-weight: bold;
   margin: 0;
-  color: #FFD300;
+  color: #ffd300;
 }
 
 banner h2 {
@@ -34,7 +47,7 @@ banner h2 {
   text-transform: uppercase;
   position: absolute;
   z-index: 2;
-  color: #FFD300;
+  color: #ffd300;
 }
 
 .overlay {
