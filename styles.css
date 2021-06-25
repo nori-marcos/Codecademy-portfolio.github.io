@@ -18,6 +18,7 @@ banner h1 {
   font-size: 5em;
   font-weight: bold;
   margin: 0;
+  color: #FFD300;
 }
 
 banner h2 {
@@ -27,6 +28,7 @@ banner h2 {
   text-transform: uppercase;
   position: absolute;
   z-index: 2;
+  color: #FFD300;
 }
 
 .overlay {
