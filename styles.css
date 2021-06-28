@@ -12,6 +12,13 @@ html {
   color: white;
   font-size: 16px;
   padding: 0;
+  font-family: 'Quicksand';
+}
+
+h3{
+  font-family: "Oswald";
+  color: #ffd300;
+  font-size: 1.5em;
 }
 
 /* Header */
@@ -47,6 +54,7 @@ banner {
   position: relative;
   z-index: 0;
   text-align: center;
+  width: 100%;
 }
 
 banner h1 {
@@ -76,3 +84,140 @@ banner h2 {
   z-index: 1;
 }
 
+/* Article */
+article{
+  color: #ffd300;
+  line-height: 1.5rem;
+  width: 100%;
+}
+
+.text{
+  width: 100%;
+}
+
+article img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* Projects */
+.projects{
+  background-color: #ffd300;
+  color: #15141f;
+  width: 100%;
+}
+
+.projects h3{
+  color: #15141f;
+  margin: 10px 0;
+}
+
+.projects li{
+  list-style-type: square;
+  font-weight: bold;
+}
+
+
+/* Skills */
+
+
+.skills{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+  justify-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.skills h3{
+  margin: 10px 0;
+}
+
+.skills-container{
+  display: flex;
+  margin: 10px 0;;
+}
+
+.fab {
+  margin: 0 5px;
+  color: #ffd300;
+  font-size: 3em;
+}
+
+/* Footer */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #15141f;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 0;
+}
+
+footer p{
+  margin: 2px auto;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  html {
+    padding: 0 300px;
+  }
+
+  banner h1{
+    font-size: 7rem;
+  }
+
+  banner h2{
+    font-size: 3rem;
+  }
+  
+  article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+  }
+  
+  .text{
+    width: 45%;
+    margin: auto 0;;
+  }
+  
+  article img {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  banner h1{
+    font-size: 7rem;
+  }
+  
+  banner h2{
+    font-size: 3rem;
+  }
+
+  article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+  }
+  
+  .text{
+    width: 45%;
+    margin: auto 0;;
+  }
+  
+  article img {
+    width: 45%;
+  }
+  
+}
